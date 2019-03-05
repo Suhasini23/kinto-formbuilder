@@ -94,6 +94,7 @@ export function publishForm(callback) {
 
     // The name of the collection is the user token so the user deals with
     // less different concepts.
+    console.log(schema.properties);
     bucket.createCollection(formID, {
       data: {schema, uiSchema},
       permissions: {

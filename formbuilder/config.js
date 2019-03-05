@@ -167,6 +167,7 @@ export default {
       },
       formData: {}
     },
+
     {
       id: "date",
       icon: "calendar",
@@ -188,5 +189,6 @@ export default {
       },
       formData: {}
     },
+    
   ],
 };
